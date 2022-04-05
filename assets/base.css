@@ -2622,6 +2622,13 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   color: rgb(var(--color-foreground));
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-color:rgb(var(--color-base-accent-1));
+}
+
+.header__menu-item:hover .header__active-menu-item {
+  text-decoration-thickness: 0.2rem;
 }
 
 .header__submenu {
