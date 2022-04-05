@@ -93,10 +93,7 @@
                 {%- endcase -%}
             </div>
           {%- endfor -%}
-        </div>
-      {%- endif -%}
-
-      <div class="footer-block--newsletter">
+          <div class="footer-block--newsletter grid__item">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -221,6 +218,8 @@
           </ul>
         {%- endif -%}
       </div>
+        </div>
+      {%- endif -%}
     </div>
   {%- endif -%}
 
