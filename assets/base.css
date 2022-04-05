@@ -2367,16 +2367,16 @@ input[type='checkbox'] {
 }
 
 .header__icon .icon {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
   fill: none;
   vertical-align: middle;
 }
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 3rem;
-  width: 3rem;
+  height: 3.4rem;
+  width: 3.4rem;
 }
 
 .header__icon--cart {
